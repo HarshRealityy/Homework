@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+}
+
+.father {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 300px;
+    height: 240px;
+    box-sizing: border-box;
+    border: 2px solid lightgrey;
+    margin-top: 50px;
+    margin-left: 40px;
+
+
+}
+
+.round {
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    border: 1px solid #6f6a6a;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 110px;
+    background: white;
+
+}
+
+.fa-brands {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #f59521;
+}
+.fa-solid{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #f59521;
+}
+.txt {
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+o {
+    color: #807c7c;
+}
+h3 {
+    width: 180px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+p {
+    margin-top: 4px;
+    margin-left: 10px;
+}
