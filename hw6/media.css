@@ -1,0 +1,15 @@
+@media screen and (min-width: 0) and (max-width: 1373px) {
+
+    .a {
+        margin-left: 10px;
+    }
+
+    .box1{
+        flex-direction: column;
+        height: 50%;
+           }
+       .wrapper2{
+           width: 100%;
+       }
+}
+
