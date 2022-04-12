@@ -67,9 +67,6 @@
 }
 @media screen and (min-width: 0) and (max-width: 1373px) {
 
-    .a {
-        margin-left: 10px;
-    }
 
     .box1{
         flex-direction: column;
