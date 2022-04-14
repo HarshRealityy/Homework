@@ -29,7 +29,7 @@
 
 // let firstName = 'Volodymyr';
 // let lastName = 'Yakymovych';
-// let middleName = 'Bogranovych';
+// let middleName = 'Bogdanovych';
 // let person = firstName+lastName+middleName;
 // console.log(person);
 
