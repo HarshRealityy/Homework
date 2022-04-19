@@ -121,6 +121,28 @@
 // console.log(123 > 123)
 // console.log (123 == 123)
 
+let light = 'yellow';
+let answer = confirm ('are you want drive?');
+if (answer === light) {
+    console.log('false')
+}
+else if (light === 'green')  {
+    console.log('go drive')
+} else if (light === 'yellow') {
+    console.log('wait')
+} else if (light === 'red') {
+    console.log('stop')
+}
+else {
+    console.log('???')
+}
+
+
+
+
+
+
+
 
 
 
