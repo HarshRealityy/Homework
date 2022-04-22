@@ -44,7 +44,7 @@
 //     document.write(`<li>${listOfItem}</li>`)
 //
 // }
-// document.write('<ul>');
+// document.write('</ul>');
 
 // Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону  Зробити адекватну стилізацію
@@ -104,7 +104,7 @@ let products = [
 
 for(let i = 0; i < products.length; i++) {
     let product = products[i];{
-        document.write(`<div class="producd.card"><h3 class="product-title">${product.title}${product.price}</h3> <img class="product-image" src="${product.image}"></div> `)
+        document.write(`<div class="producd.card"><h3 class="product-title">${product.title}${' '}${product.price}</h3> <img class="product-image" src="${product.image}"></div> `)
     }
 }
 
