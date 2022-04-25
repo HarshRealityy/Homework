@@ -37,29 +37,35 @@
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 // function foo(text) {
+//     document.write('<ul>')
 //     for (let i = 0; i < 3; i++) {
-//         document.write(`<ul><li>${text}</li></ul>`);
+//         document.write(`<li>${text}</li>`);
 //     }
+//     document.write('</ul>')
 //     return text;
 // }
 // console.log(foo('lorem'));
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 // function foo(text,length) {
+//     document.write('<ul>')
 //     for (let i = 0; i < length; i++) {
-//         document.write(`<ul><li>${text}</li></ul>`);
+//         document.write(`<li>${text}</li>`);
 //     }
+//     document.write('</ul>')
 //     return text;
 // }
 // console.log(foo('lorem', 10));
-
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 // function iterator(array){
+//     document.write('<ul>')
 //     for (const arrayElement of array) {
-//         document.write(`<ul><li>${arrayElement}</li></ul>`)
+//         document.write(`<li>${arrayElement}</li>`)
 //     }
+//     document.write('</ul>')
 // }
-// let nums = [3,4,5,6,7];
+// let nums = [3,'lorem',true];
 // iterator(nums);
+
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 // function iterator(array){
