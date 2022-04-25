@@ -10,7 +10,7 @@
 
 
 // // - За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-
+//
 // let i =0;
 // while (i <20 ) {
 //     document.write('<h1>Lorem ipsum.</h1>')
@@ -113,9 +113,6 @@
 //         document.write(`<div class="producd.card"><h3 class="product-title">${product.title}${' '}${product.price}</h3> <img class="product-image" src="${product.image}"></div> `)
 //     }
 // }
-
-
-
 
 
 
