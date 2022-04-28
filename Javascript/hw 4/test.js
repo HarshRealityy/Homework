@@ -1,9 +1,13 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
-// function square(a,b) {
-//     let res = a * b;
-//     return res;
+// function square(a,b,action) {
+//     switch (action) {
+//         case '*':
+//             return a * b;
+//         break;
+//     }
 // }
-// console.log(square(4,5));
+// let square1 = square(+prompt('a'), +prompt('b'), prompt('action'));
+// alert(square1);
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 // function square(p,r) {
@@ -70,25 +74,24 @@
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 // function iterator(array){
 //     for (let arrayElement of array) {
-//         document.write(`<div>${arrayElement.name}</div>`)
-//         document.write(`<div>${arrayElement.age}</div>`)
-//         document.write(`<div>${arrayElement.id}</div>`)
+//         document.write(`<div style="background:red; margin: 10px;">${arrayElement.name}${' '}${arrayElement.age}${' '}${arrayElement.id}</div>`)
 //     }
 // }
 // let nums = [{name: 'Vova', age: '14',id: 1},
 //             {name: 'Matviy', age: '13', id: 2}];
 // iterator(nums);
 
+
 // - створити функцію яка повертає найменьше число з масиву
 // function foo(array){
+//     debugger;
 //     let min = array[0];
 //     for (const funMinElement of array) {
 //         if (funMinElement < min) min = funMinElement;
 //     }
 //     return min;
 // }
-// const funMixReturn = foo([2,3,4,5,6]);
-// console.log(funMixReturn);
+// console.log(foo([6,3,4,5,6]));
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 // function calculate(array){
@@ -99,13 +102,7 @@
 //     return i;
 // }
 //
-// const sume = calculate([4,2,3,4])
-// console.log(sume);
-
-
-
-
-
+// console.log(calculate([3,4,5]))
 
 
 
