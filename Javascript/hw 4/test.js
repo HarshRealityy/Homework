@@ -33,7 +33,7 @@
 // iterator(nums);
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
-// function foo(text) {
+// let foo = (text) => {
 //     let a = document.write(`<p>${text}</p>`)
 //     return text;
 // }
