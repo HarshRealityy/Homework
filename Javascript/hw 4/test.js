@@ -84,7 +84,6 @@
 
 // - створити функцію яка повертає найменьше число з масиву
 // function foo(array){
-//     debugger;
 //     let min = array[0];
 //     for (const funMinElement of array) {
 //         if (funMinElement < min) min = funMinElement;
