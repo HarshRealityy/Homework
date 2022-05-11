@@ -16,12 +16,12 @@
 // }
 // console.log(square(4,5))
 
-// - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
-// function square(p,r,h) {
-//     let res = 2 * p * r * (h + r);
-//     return res;
-// }
-// console.log(square(4,5,6))
+- створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
+function square(p,r,h) {
+    let res = 2 * p * r * (h + r);
+    return res;
+}
+console.log(square(4,5,6))
  // - створити функцію яка приймає масив та виводить кожен його елемент
 
 // function iterator(array){

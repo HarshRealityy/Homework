@@ -59,13 +59,11 @@
 //
 // let descending = nums.sort(function (a,b){return b -a});
 // console.log(descending)
-//
-
 
 
 
 // - є масив
-// let coursesAndDurationArray = [
+//let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
 //     {title: 'Java Complex', monthDuration: 6},
 //     {title: 'Python Complex', monthDuration: 6},
@@ -73,9 +71,9 @@
 //     {title: 'FullStack', monthDuration: 7},
 //     {title: 'Frontend', monthDuration: 4}
 // ];
-// -- відсортувати його за спаданням за monthDuration
-// -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
-
+// // -- відсортувати його за спаданням за monthDuration
+// // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
+//
 // let coursesAndDurationArray = [
 //     {title: 'JavaScript Complex', monthDuration: 5},
 //     {title: 'Java Complex', monthDuration: 6},
@@ -90,6 +88,8 @@
 //  return user.monthDuration > 5;
 // });
 // console.log(filter);
+
+
 
 
 // описати колоду карт
@@ -181,11 +181,7 @@
 // console.log(res4)
 // console.log(res5)
 //
-//
-//
-//
-//
-//
+
 
 
 
