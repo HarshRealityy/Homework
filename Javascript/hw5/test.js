@@ -9,6 +9,7 @@
 // }
 // console.log(foo([1,2,3]))
 
+
 // const foo = array => array.reduce((a,b) => a + b, 0) / array.length
 // console.log(foo([1, 2, 3]));
 
@@ -135,9 +136,5 @@
 // }
 // console.log(someArr)
 // console.log(foo(someArr,2))
-
-
-
-
 
 
